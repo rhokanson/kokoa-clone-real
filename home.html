@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Home-My First</title>
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+     div { 
+       background-color: teal;
+       width: 200px;
+       height: 200px;
+    }
+    
+    @media screen and (min-width: 681px) and (max-width: 1200px) and (orientation: landscape){
+      div {
+        background-color: wheat;
+      }
+    }
+  @media screen and (orientation: landscape) {
+    span {
+      display: none
+    }
+  }
+    span {
+      font-size: 40px;
+    }
+    </style>
+    
+  </head>    
+  <body>
+   <div></div>
+<span>please flip your phone</span>
+  </body>
+</html>
