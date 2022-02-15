@@ -31,10 +31,12 @@
 @keyframes hideSplashScreen {
   from {
     opacity: 1;
+    transform: none;
   }
   to {
     opacity: 0;
     visibility: hidden;
+    transform: scale(1.5);
   }
 }
 
@@ -49,5 +51,5 @@
   align-items: center;
   font-size: 132px;
   animation: hideSplashScreen 0.3s ease-in-out forwards;
-  animation-delay: 1s;
+  animation-delay: 0.8s;
 }
